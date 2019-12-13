@@ -1,0 +1,72 @@
+# Archivo de animacion
+
+esc_0: 
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      0.05
+    tiempo_espera:     1
+
+esc_1: 
+    expresion:         dormido_1 
+    ua_extras:         []  
+    intensidad_total:  0.5
+    tiempo_total:      0.03
+    tiempo_espera:     1
+
+esc_2: 
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      0.05
+    tiempo_espera:     1
+
+esc_3: 
+    expresion:         neutra_1
+    ua_extras:         [45, 5]
+    intensidad_total:  1
+    tiempo_total:      0.05
+    tiempo_espera:     1
+
+esc_4: 
+    expresion:         neutra_1
+    ua_extras:         [45, 0]
+    intensidad_total:  0
+    tiempo_total:      0.05
+    tiempo_espera:     1
+
+esc_5: 
+    expresion:         neutra_1
+    ua_extras:         [45, 5]
+    intensidad_total:  1
+    tiempo_total:      0.05
+    tiempo_espera:     1
+
+esc_6: 
+    expresion:         neutra_1
+    ua_extras:         [45, 0]
+    intensidad_total:  0
+    tiempo_total:      0.05
+    tiempo_espera:     1
+
+esc_7: 
+    expresion:         neutra_1
+    ua_extras:         [26, 3]
+    intensidad_total:  1
+    tiempo_total:      0.05
+    tiempo_espera:     1
+
+esc_8: 
+    expresion:         neutra_1
+    ua_extras:         [26, 0]
+    intensidad_total:  1
+    tiempo_total:      0.05
+    tiempo_espera:     1
+
+esc_9: 
+    expresion:         dormido_1
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      0.02
+    tiempo_espera:     5
+

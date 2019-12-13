@@ -1,0 +1,16 @@
+# Archivo de animacion
+
+esc_0: 
+    expresion:         ninguna_1
+    ua_extras:         [45, 5]
+    intensidad_total:  1 
+    tiempo_total:      0.07
+    tiempo_espera:     5
+
+esc_1: 
+    expresion:         ninguna_1
+    ua_extras:         [45, 0]
+    intensidad_total:  1
+    tiempo_total:      0.07
+    tiempo_espera:     5
+

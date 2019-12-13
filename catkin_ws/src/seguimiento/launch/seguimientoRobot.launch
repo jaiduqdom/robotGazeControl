@@ -1,0 +1,76 @@
+<launch>
+
+    	<rosparam command="load" file="$(find seguimiento)/config/parametros.yalm" />  
+
+	<node
+		pkg="blender_control"
+		type="ros_blender_bridge.py"
+		name="ros_blender_bridge"
+		output="screen"
+		launch-prefix="xterm -e" >
+	</node>
+
+	<node
+		pkg="blender_control"
+		type="gestion_gestos.py"
+		name="gestion_gestos"
+		output="screen"
+		launch-prefix="xterm -e" >
+	</node>
+
+	<node
+		pkg="seguimiento"
+		type="deteccionAudio.py"
+		name="deteccionAudio"
+		output="screen"
+		launch-prefix="xterm -e" >
+	</node>
+
+	<node
+		pkg="seguimiento"
+		type="publicadorPuntosCaras.py"
+		name="publicadorPuntosCaras"
+		output="screen"
+		launch-prefix="xterm -e" >
+	</node>
+
+	<node
+		pkg="seguimiento"
+		type="redCompetitiva.py"
+		name="redCompetitiva"
+		output="screen"
+		launch-prefix="xterm -e" >
+	</node>
+
+	<node
+		pkg="seguimiento"
+		type="filtroKalman.py"
+		name="filtroKalman"
+		output="screen"
+		launch-prefix="xterm -e" >
+	</node>
+
+	<node
+		pkg="seguimiento"
+		type="procesoEstimulos.py"
+		name="procesoEstimulos"
+		output="screen"
+		launch-prefix="xterm -e" >
+	</node>
+
+	<node
+		pkg="seguimiento"
+		type="seguimientoRobot.py"
+		name="seguimientoRobot"
+		output="screen"
+		launch-prefix="xterm -e" >
+	</node>
+
+	<node
+		pkg="seguimiento"
+		type="visualizacion.py"
+		name="visualizacion"
+		output="screen" >
+	</node>
+</launch>
+

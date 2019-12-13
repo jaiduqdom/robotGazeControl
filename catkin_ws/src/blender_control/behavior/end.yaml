@@ -1,0 +1,20 @@
+# Archivo de animacion
+# Archivo generado
+esc_0:
+    expresion:         ninguna_1
+    ua_extras:         [2, 5]
+    intensidad_total:  1
+    tiempo_total:      0.1
+    tiempo_espera:     0.1
+
+esc_1:
+    expresion:         ninguna_1
+    ua_extras:         [2, 0]
+    intensidad_total:  1
+    tiempo_total:      0.1
+    tiempo_espera:     0.1
+
+
+
+
+

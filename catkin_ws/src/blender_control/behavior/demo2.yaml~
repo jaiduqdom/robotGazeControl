@@ -1,0 +1,332 @@
+# Archivo generado
+esc_0:
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_1:
+    expresion:         ninguna_1
+    ua_extras:         [26, 3, 45, 3]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_2:
+    expresion:         dormido_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_3:
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+esc_4:
+    expresion:         ninguna_1
+    ua_extras:         [61, 4, 54, 3]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_5:
+    expresion:         ninguna_1
+    ua_extras:         [62, 4]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_6:
+    expresion:         ninguna_1
+    ua_extras:         [ 61, 4]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_7:
+    expresion:         ninguna_1
+    ua_extras:         [ 1, 5, 5, 5]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_8:
+    expresion:         sorpresa_1
+    ua_extras:         [5, 0]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_9:
+    expresion:         neutra_1
+    ua_extras:         [2, 5, 5, 5]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_10:
+    expresion:         ninguna_1
+    ua_extras:         [54, 5, 26, 3]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_11:
+    expresion:         ninguna_1
+    ua_extras:         [52, 5]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_12:
+    expresion:         ninguna_1
+    ua_extras:         [51, 3, 26, 0]
+    intensidad_total:  1
+    tiempo_total:      0.1
+    tiempo_espera:     3
+
+esc_13:
+    expresion:         ninguna_1
+    ua_extras:         [51, 0]
+    intensidad_total:  1
+    tiempo_total:      0.1
+    tiempo_espera:     3
+
+esc_14:
+    expresion:         guinio_boca
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_15:
+    expresion:         ninguna_1
+    ua_extras:         [45, 1, 1, 2, 26, 3]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_16:
+    expresion:         ninguna_1
+    ua_extras:         [62, 5]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_17:
+    expresion:         ninguna_1
+    ua_extras:         [61, 5, 26, 0]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_18:
+    expresion:         ninguna_1
+    ua_extras:         [62, 5, 45, 3]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+esc_19:
+    expresion:         ninguna_1
+    ua_extras:         [61, 5, 45, 3]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_20:
+    expresion:         ninguna_1
+    ua_extras:         [62, 3, 26, 4]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_21:
+    expresion:         ninguna_1
+    ua_extras:         [61, 4, 26, 0]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_22:
+    expresion:         sorpresa_2
+    ua_extras:         [53, 2]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_23:
+    expresion:         ninguna_1
+    ua_extras:         [53, 0]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_24:
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_25:
+    expresion:         sorpresa_2
+    ua_extras:         [26, 3]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_26:
+    expresion:         neutra_1
+    ua_extras:         [26, 5]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_27:
+    expresion:         ninguna_1
+    ua_extras:         [26, 0]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_28:
+    expresion:         ninguna_1
+    ua_extras:         [52, 3, 62, 3]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_29:
+    expresion:         tristeza_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_30:
+    expresion:         neutra_1
+    ua_extras:         [62, 4]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_31:
+    expresion:         guinio_boca
+    ua_extras:         [61, 4]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_32:
+    expresion:         neutra_1
+    ua_extras:         [52, 3]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_33:
+    expresion:         sorpresa_2
+    ua_extras:         [51, 4]
+    intensidad_total:  1
+    tiempo_total:      0.1
+    tiempo_espera:     3
+
+
+esc_34:
+    expresion:         neutra_1
+    ua_extras:         [62, 5, 53, 4]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+esc_35:
+    expresion:         sorpresa_2
+    ua_extras:         [52, 4, 62, 0]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_36:
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_37:
+    expresion:         ninguna_1
+    ua_extras:         [52, 0]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_38:
+    expresion:         guinio_boca
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_39:
+    expresion:         dormido_1
+    ua_extras:         [26, 0]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_40:
+    expresion:         ninguna_1
+    ua_extras:         [2, 5]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_41:
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+

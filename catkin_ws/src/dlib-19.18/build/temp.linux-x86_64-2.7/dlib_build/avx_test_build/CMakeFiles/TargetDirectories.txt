@@ -1,0 +1,2 @@
+/home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/dlib_build/avx_test_build/CMakeFiles/edit_cache.dir
+/home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/dlib_build/avx_test_build/CMakeFiles/rebuild_cache.dir

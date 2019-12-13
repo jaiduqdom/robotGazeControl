@@ -1,0 +1,76 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08480/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08480.dir/build.make CMakeFiles/cmTC_08480.dir/build
+make[1]: se entra en el directorio '/home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08480.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_08480.dir/CheckSymbolExists.c.o   -c /home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_08480
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08480.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_08480.dir/CheckSymbolExists.c.o  -o cmTC_08480 -rdynamic 
+CMakeFiles/cmTC_08480.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_08480.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_08480'
+make[1]: *** [cmTC_08480] Error 1
+make[1]: se sale del directorio '/home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_08480/fast'
+make: *** [cmTC_08480/fast] Error 2
+
+File /home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b45e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b45e4.dir/build.make CMakeFiles/cmTC_b45e4.dir/build
+make[1]: se entra en el directorio '/home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b45e4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_b45e4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b45e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b45e4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b45e4.dir/CheckFunctionExists.c.o  -o cmTC_b45e4 -rdynamic -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b45e4.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_b45e4'
+make[1]: *** [cmTC_b45e4] Error 1
+make[1]: se sale del directorio '/home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_b45e4/fast'
+make: *** [cmTC_b45e4/fast] Error 2
+
+
+Determining if the function sgesv exists failed with the following output:
+Change Dir: /home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_891e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_891e6.dir/build.make CMakeFiles/cmTC_891e6.dir/build
+make[1]: se entra en el directorio '/home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_891e6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=sgesv -fPIE   -o CMakeFiles/cmTC_891e6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_891e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_891e6.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv    CMakeFiles/cmTC_891e6.dir/CheckFunctionExists.c.o  -o cmTC_891e6 -rdynamic /usr/lib/liblapack.so 
+CMakeFiles/cmTC_891e6.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `sgesv' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_891e6.dir/build.make:98: fallo en las instrucciones para el objetivo 'cmTC_891e6'
+make[1]: *** [cmTC_891e6] Error 1
+make[1]: se sale del directorio '/home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_891e6/fast'
+make: *** [cmTC_891e6/fast] Error 2
+
+

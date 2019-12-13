@@ -1,0 +1,22 @@
+<launch>
+
+    	<rosparam command="load" file="$(find seguimiento)/config/parametros.yalm" />  
+
+	<node
+		pkg="blender_control"
+		type="ros_blender_bridge_new.py"
+		name="ros_blender_bridge"
+		output="screen"
+		launch-prefix="xterm -e" >
+	</node>
+
+	<node
+		pkg="blender_control"
+		type="gestion_gestos_new.py"
+		name="gestion_gestos"
+		output="screen"
+		launch-prefix="xterm -e" >
+	</node>
+
+</launch>
+

@@ -1,0 +1,176 @@
+# ARCHIVO DE CONFIGURACION DE GESTOS.
+
+esc_0: 
+    expresion:         neutra
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_1: 
+    expresion:         alegria
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_2: 
+    expresion:         neutra
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_3: 
+    expresion:         tristeza
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_4: 
+    expresion:         neutra
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_5: 
+    expresion:         sorpresa
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_6: 
+    expresion:         neutra
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_7: 
+    expresion:         ira
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_8: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_9: 
+    expresion:         asco
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_10: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_11: 
+    expresion:         desprecio
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_12: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_13: 
+    expresion:         miedo
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_14: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_15: 
+    expresion:         enfado
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_16: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_17: 
+    expresion:         mirarderecha
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_18: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_19: 
+    expresion:         mirarizquierda
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_20: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_21: 
+    expresion:         mirararriba
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_22: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_23: 
+    expresion:         mirarabajo
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4
+
+esc_24: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      0.25
+    tiempo_espera:     4

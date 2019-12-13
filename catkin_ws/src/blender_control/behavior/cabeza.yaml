@@ -1,0 +1,93 @@
+# Archivo de animacion
+
+esc_0: 
+    expresion:         ninguna_1
+    ua_extras:         [55, 5]
+    intensidad_total:  1 
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+
+esc_1: 
+    expresion:         ninguna_1
+    ua_extras:         [55, 0, 56, 5]  
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+
+esc_2: 
+    expresion:         ninguna_1
+    ua_extras:         [56, 0, 55, 5]
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+
+esc_3: 
+    expresion:         ninguna_1
+    ua_extras:         [55, 0, 56, 5]
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+
+esc_4: 
+    expresion:         ninguna_1
+    ua_extras:         [56, 0, 55, 5]
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+
+esc_5: 
+    expresion:         ninguna_1
+    ua_extras:         [55, 0, 56, 5]
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+
+esc_6: 
+    expresion:         ninguna_1
+    ua_extras:         [56, 0, 55, 5]
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+
+esc_7: 
+    expresion:         ninguna_1
+    ua_extras:         [55, 0, 56, 5]
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+
+esc_8: 
+    expresion:         ninguna_1
+    ua_extras:         [56, 0, 55, 5]
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+
+esc_9: 
+    expresion:         ninguna_1
+    ua_extras:         [55, 0, 56, 5]
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+
+esc_10: 
+    expresion:         ninguna_1
+    ua_extras:         [56, 0, 55, 5]
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+
+esc_11: 
+    expresion:         ninguna_1
+    ua_extras:         [55, 0, 56, 5]
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+
+esc_12: 
+    expresion:         ninguna_1
+    ua_extras:         [56, 0, 55, 5]
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+

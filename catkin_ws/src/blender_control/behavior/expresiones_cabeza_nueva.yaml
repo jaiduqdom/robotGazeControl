@@ -1,0 +1,79 @@
+# ARCHIVO DE CONFIGURACION DE GESTOS.
+
+esp_0: 
+    expresion:         neutra
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      1.5
+    tiempo_espera:     2
+
+esp_1: 
+    expresion:         alegria
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      1
+    tiempo_espera:     2
+
+esp_2: 
+    expresion:         tristeza
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      1
+    tiempo_espera:     2
+
+esp_3: 
+    expresion:         sorpresa
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      1
+    tiempo_espera:     2
+
+esp_4: 
+    expresion:         disgusto
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      1
+    tiempo_espera:     2
+
+esp_5: 
+    expresion:         miedo
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      1
+    tiempo_espera:     2
+
+esp_6: 
+    expresion:         mirar_derecha
+    ua_extras:         [] 
+    intensidad_total:  0.1 
+    tiempo_total:      1
+    tiempo_espera:     5
+
+esp_7: 
+    expresion:         mirar_izquierda
+    ua_extras:         [] 
+    intensidad_total:  0.1 
+    tiempo_total:      1
+    tiempo_espera:     5
+
+esp_8: 
+    expresion:         mirar_arriba
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      1
+    tiempo_espera:     2
+
+esp_9: 
+    expresion:         mirar_abajo
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      1
+    tiempo_espera:     2
+
+esp_10: 
+    expresion:         parpadeo
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      7
+    tiempo_espera:     0.1
+

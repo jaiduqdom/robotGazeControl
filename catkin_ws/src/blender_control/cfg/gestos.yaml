@@ -1,0 +1,38 @@
+# ARCHIVO DE CONFIGURACION DE GESTOS.
+
+# forma del vector de unidades de acion
+# aus: [unidad_de_accion_1, intensidad_1, unidad_de_accion_2, intensidad_2 ...]
+
+neutra: 
+    aus: [1, 0, 2, 0, 4, 0, 5, 0, 7, 0, 9, 0, 12, 0, 15, 0, 26, 0, 45, 0, 61, 0, 62, 0, 63, 0, 64, 0]
+
+alegria:
+    aus: [12, 5]
+
+tristeza:
+    aus: [1, 5, 4, 5, 15, 5]
+
+sorpresa:
+    aus: [1, 5, 2, 5, 5, 5, 26, 5]
+
+disgusto:
+    aus: [9, 5, 15, 5]
+
+miedo:
+    aus: [1, 5, 2, 5, 4, 5, 5, 5, 7, 3, 26, 5]
+
+mirar_derecha:
+    aus: [62, 5]
+
+mirar_izquierda:
+    aus: [61, 5]
+
+mirar_arriba:
+    aus: [63, 5]
+
+mirar_abajo:
+    aus: [64, 5]
+
+parpadeo:
+    aus: [45, 5]
+

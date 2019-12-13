@@ -1,0 +1,134 @@
+# ARCHIVO DE CONFIGURACION DE GESTOS.
+
+esc_0: 
+    expresion:         neutra
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_1: 
+    expresion:         alegria
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_2: 
+    expresion:         neutra
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_3: 
+    expresion:         tristeza
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_4: 
+    expresion:         neutra
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_5: 
+    expresion:         sorpresa
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_6: 
+    expresion:         neutra
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_7: 
+    expresion:         disgusto
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_8: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_9: 
+    expresion:         miedo
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_10: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_11: 
+    expresion:         mirar_derecha
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_12: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_13: 
+    expresion:         mirar_izquierda
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_14: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_15: 
+    expresion:         mirar_arriba
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_16: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_17: 
+    expresion:         mirar_abajo
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      3
+    tiempo_espera:     2
+
+esc_18: 
+    expresion:         neutra
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      3
+    tiempo_espera:     2

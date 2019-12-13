@@ -1,0 +1,105 @@
+# ARCHIVO DE CONFIGURACION DE GESTOS.
+
+# forma del vector de unidades de accion
+# aus: [unidad_de_accion_1, intensidad_1, unidad_de_accion_2, intensidad_2 ...]
+
+ninguna_1:
+    aus: []
+
+neutra_1: 
+    aus: [0,5]
+
+sorpresa_1:
+    aus: [1, 5, 2, 2, 5, 5, 9, 5, 27, 3]
+
+sorpresa_2:
+    aus: [1, 5, 2, 2, 5, 5, 9, 5]
+
+miedo_1:
+    aus: [1, 5, 2, 2, 15, 5, 5, 5]
+
+alegria_1:
+    aus: [3, 1, 2, 11, 4, 2, 2]
+
+enfado_1:
+    aus: [54, 2, 25, 5, 4, 5, 5, 5, 63, 5, 6, 5, 12, 5]
+
+tristeza_1:
+    aus: [1, 5, 7, 2, 6, 3, 54, 3, 64, 3, 15, 5]
+
+disgusto_1:
+    aus: [4, 5, 5, 5, 1001, 5, 7, 3]
+
+dormido_1:
+    aus: [ 45, 5, 54, 5]
+
+guinio_boca:
+    aus: [27, 3, 100, 5, 4600, 5 ]   
+
+alegria_enc:
+    aus: [6, 3, 1, 5, 11, 4, 2, 2, 27, 3.4]
+
+sorpresa_enc:
+    aus: [1, 5, 2, 2, 5, 5, 9, 5, 27, 5, 12, 3, 53, 3]
+
+tristeza_enc:
+    aus: [1, 5, 7, 2, 6, 3, 54, 3, 64, 3, 15, 5, 55, 4, 4, 5, 1, 5, 25, 3, 10, 0]
+
+enfado_enc:
+    aus: [54, 2, 25, 5, 4, 5, 5, 5, 63, 5, 6, 5, 12, 5, 54, 3.5, 2, 5]
+
+miedo_enc:
+    aus: [1, 5, 2, 2, 15, 5, 5, 5, 64, 3, 53, 3, 25, 5 ]
+
+disgusto_enc:
+    aus: [4, 5, 5, 5, 1001, 5, 7, 3, 53, 3.1, 55, 3.8, 62, 3.5, 4, 5, 45, 3, 5, 1.8, 1, 5]
+
+
+# VISEMAS.
+
+visema_silencio:
+    aus: [27, 0, 12, 0]
+
+visema_a: 
+    aus: [27, 3.5]
+
+visema_e:
+    aus: [27, 3]
+
+visema_i:
+    aus: [27, 2]
+
+visema_o:
+    aus: [12, 3.3, 27, 3]
+
+visema_u:
+    aus: [12, 3.6, 27, 2.2]
+
+visema_bmp:
+    aus: [27, 2]
+
+visema_slr:
+    aus: [27, 3]
+
+visema_chy:
+    aus: [27, 1]
+
+visema_td:
+    aus: [27, 2]
+
+visema_fz:
+    aus: [27, 2]   
+
+visema_kgj:
+    aus: [27, 2]
+
+visema_cdg:
+    aus: [27, 2]
+
+visema_l:
+    aus: [27, 2]   
+
+visema_todo:
+    aus: [101, 2]
+
+

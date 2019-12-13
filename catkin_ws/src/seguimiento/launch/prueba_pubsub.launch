@@ -1,0 +1,34 @@
+<launch>
+	
+	<node
+		pkg="camara"
+		type="publicador"
+		name="publicador"
+		output="screen"
+		launch-prefix="xterm -e"
+		
+	>
+	</node>
+
+	<!--<node
+		pkg="camara"
+		type="publicador"
+		name="publicador2"
+		output="screen"
+		
+	>
+	</node>-->	
+	
+	<node
+		pkg="camara"
+		type="subscriptor"
+		name="subscriptor"
+		output="screen"
+		
+	>
+	</node>	
+	
+
+
+</launch>
+

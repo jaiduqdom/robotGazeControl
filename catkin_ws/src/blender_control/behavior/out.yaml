@@ -1,0 +1,37 @@
+# Archivo de visemas
+
+esc_0:
+    expresion:         visema_o
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.07
+    tiempo_espera:     0.07
+
+esc_1:
+    expresion:         visema_todo
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0
+    tiempo_espera:     0
+
+esc_2:
+    expresion:         visema_a
+    ua_extras:         []
+    intensidad_total:  0.7
+    tiempo_total:      0.14
+    tiempo_espera:     0.14
+
+esc_3:
+    expresion:         visema_silencio
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.30
+    tiempo_espera:     0.30
+
+esc_4:
+    expresion:         visema_silencio
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.00
+    tiempo_espera:     0.00
+

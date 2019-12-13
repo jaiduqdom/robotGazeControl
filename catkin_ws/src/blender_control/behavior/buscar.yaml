@@ -1,0 +1,43 @@
+# Archivo de animacion
+
+esc_0: 
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      0.5
+    tiempo_espera:     0.5
+
+esc_1: 
+    expresion:         ninguna_1
+    ua_extras:         [51, 4, 61, 5]
+    intensidad_total:  1
+    tiempo_total:      2
+    tiempo_espera:     2
+
+esc_2: 
+    expresion:         ninguna_1
+    ua_extras:         [51, 0, 61, 0]
+    intensidad_total:  1
+    tiempo_total:      2
+    tiempo_espera:     2
+
+esc_3: 
+    expresion:         ninguna_1
+    ua_extras:         [52, 4, 62, 5]
+    intensidad_total:  1
+    tiempo_total:      2
+    tiempo_espera:     2
+
+esc_4: 
+    expresion:         ninguna_1
+    ua_extras:         [52, 0, 62, 0]
+    intensidad_total:  1
+    tiempo_total:      2
+    tiempo_espera:     2
+
+esc_5: 
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      1
+    tiempo_espera:     1

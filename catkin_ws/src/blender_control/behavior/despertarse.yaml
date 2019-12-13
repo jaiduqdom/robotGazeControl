@@ -1,0 +1,32 @@
+# Archivo de animacion
+
+esc_0: 
+    expresion:         dormido_1
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      1
+    tiempo_espera:     1
+
+esc_1: 
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      1
+    tiempo_espera:     1.5
+
+esc_2: 
+    expresion:         neutra_1
+    ua_extras:         [45, 5, 26, 3]
+    intensidad_total:  1
+    tiempo_total:      0
+    tiempo_espera:     0.3
+
+esc_3: 
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  0
+    tiempo_total:      0
+    tiempo_espera:     0.3
+
+
+

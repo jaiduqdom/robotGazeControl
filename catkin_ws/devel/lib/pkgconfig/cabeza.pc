@@ -1,0 +1,8 @@
+prefix=/home/disa/catkin_ws/devel
+
+Name: cabeza
+Description: Description of cabeza
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/disa/catkin_ws/devel/lib 
+Requires: 

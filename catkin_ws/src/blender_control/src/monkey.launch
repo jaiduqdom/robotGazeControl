@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+	<!-- launcher repaso-->
+	<node name="ros_blender" pkg="blender_control" type="ros_blender.py"/>
+	<node name="gestion_gestos" pkg="blender_control" type="gestion_gestos.py"/>
+</launch>

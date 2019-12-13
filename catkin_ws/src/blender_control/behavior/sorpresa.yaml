@@ -1,0 +1,33 @@
+# Archivo de animacion
+
+esc_0:
+    expresion:         ninguna_1
+    ua_extras:         [63, 0, 61, 4]
+    intensidad_total:  1
+    tiempo_total:      0.03
+    tiempo_espera:     2
+
+
+esc_1:
+    expresion:         sorpresa_1
+    ua_extras:         [5, 0]
+    intensidad_total:  1
+    tiempo_total:      0.03
+    tiempo_espera:     5
+
+
+esc_2: 
+    expresion:         guinio_boca
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     2
+
+
+esc_3: 
+    expresion:         guinio_boca
+    ua_extras:         []
+    intensidad_total:  0
+    tiempo_total:      0.3
+    tiempo_espera:     2
+

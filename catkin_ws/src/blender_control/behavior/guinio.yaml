@@ -1,0 +1,15 @@
+# ARCHIVO DE CONFIGURACION DE GESTOS.
+
+esc_0: 
+    expresion:         guinio_boca
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      1
+    tiempo_espera:     1.5
+
+esc_1: 
+    expresion:         guinio_boca
+    ua_extras:         []
+    intensidad_total:  0 
+    tiempo_total:      1
+    tiempo_espera:     1.5

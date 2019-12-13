@@ -1,0 +1,61 @@
+# Archivo de animacion
+
+esc_0: 
+    expresion:         dormido_1
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      1
+    tiempo_espera:     3
+
+esc_1: 
+    expresion:         dormido_1 
+    ua_extras:         []  
+    intensidad_total:  0
+    tiempo_total:      2
+    tiempo_espera:     3
+
+esc_2: 
+    expresion:         neutra_1
+    ua_extras:         [45, 5]
+    intensidad_total:  1
+    tiempo_total:      0
+    tiempo_espera:     3
+
+esc_3: 
+    expresion:         neutra_1
+    ua_extras:         [45,0]
+    intensidad_total:  0
+    tiempo_total:      0
+    tiempo_espera:     3
+
+esc_4: 
+    expresion:         neutra_1
+    ua_extras:         [52, 4]
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     3
+
+esc_5: 
+    expresion:         guinio_boca
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      0.5
+    tiempo_espera:     3
+
+esc_6: 
+    expresion:         guinio_boca
+    ua_extras:         [52, 0]
+    intensidad_total:  0
+    tiempo_total:      0.5
+    tiempo_espera:     3
+
+esc_7: 
+    expresion:         dormido_1
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      1
+    tiempo_espera:     3
+
+
+
+

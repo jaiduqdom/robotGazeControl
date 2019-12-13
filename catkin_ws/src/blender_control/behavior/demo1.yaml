@@ -1,0 +1,65 @@
+# ARCHIVO DE CONFIGURACION DE GESTOS.
+
+esc_0: 
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      1
+    tiempo_espera:     1.5
+
+esc_1: 
+    expresion:         miedo_1
+    ua_extras:         []
+    intensidad_total:  1 
+    tiempo_total:      1
+    tiempo_espera:     1.5
+
+esc_2: 
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      1
+    tiempo_espera:     1.5
+
+esc_3: 
+    expresion:         enfado_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      1
+    tiempo_espera:     1.5
+
+esc_4: 
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      1
+    tiempo_espera:     1.5
+
+esc_5: 
+    expresion:         sorpresa_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      1
+    tiempo_espera:     1.5
+
+esc_6: 
+    expresion:         neutra_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      1
+    tiempo_espera:     1.5
+
+esc_7: 
+    expresion:         alegria_1
+    ua_extras:         []
+    intensidad_total:  1
+    tiempo_total:      1
+    tiempo_espera:     1.5
+
+esc_8: 
+    expresion:         neutra_1
+    ua_extras:         [] 
+    intensidad_total:  1 
+    tiempo_total:      1
+    tiempo_espera:     1.5
+

@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f091/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f091.dir/build.make CMakeFiles/cmTC_5f091.dir/build
+make[1]: se entra en el directorio '/home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f091.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_5f091.dir/CheckSymbolExists.c.o   -c /home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5f091
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f091.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_5f091.dir/CheckSymbolExists.c.o  -o cmTC_5f091 -rdynamic 
+CMakeFiles/cmTC_5f091.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5f091.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_5f091'
+make[1]: *** [cmTC_5f091] Error 1
+make[1]: se sale del directorio '/home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_5f091/fast'
+make: *** [cmTC_5f091/fast] Error 2
+
+File /home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60c19/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60c19.dir/build.make CMakeFiles/cmTC_60c19.dir/build
+make[1]: se entra en el directorio '/home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60c19.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_60c19.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_60c19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60c19.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_60c19.dir/CheckFunctionExists.c.o  -o cmTC_60c19 -rdynamic -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_60c19.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_60c19'
+make[1]: *** [cmTC_60c19] Error 1
+make[1]: se sale del directorio '/home/disa/catkin_ws/src/dlib-19.18/build/temp.linux-x86_64-2.7/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_60c19/fast'
+make: *** [cmTC_60c19/fast] Error 2
+
+

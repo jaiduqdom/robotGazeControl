@@ -1,0 +1,104 @@
+# Archivo generado
+esc_0:
+    expresion:         ninguna_1
+    ua_extras:         [63, 5, 45, 5]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     0.3
+
+
+esc_1:
+    expresion:         ninguna_1
+    ua_extras:         [63, 0]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     0.3
+
+
+esc_2:
+    expresion:         ninguna_1
+    ua_extras:         [26, 3, 51, 4, 55, 5, 62, 5]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     0.3
+
+
+esc_3:
+    expresion:         ninguna_1
+    ua_extras:         [45, 3, 52, 4, 55, 0, 53, 3, 61, 5]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     0.3
+
+
+esc_4:
+    expresion:         ninguna_1
+    ua_extras:         [45, 0, 26, 0]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     0.3
+
+
+esc_5:
+    expresion:         ninguna_1
+    ua_extras:         [52, 4, 26, 4]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     0.3
+
+
+esc_6:
+    expresion:         ninguna_1
+    ua_extras:         [51, 2, 26, 0, 45, 3]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     0.3
+
+
+esc_7:
+    expresion:         ninguna_1
+    ua_extras:         [26, 4, 62, 4]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     0.3
+
+
+esc_8:
+    expresion:         sorpresa_1
+    ua_extras:         [26, 0, 63, 5]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     0.3
+
+
+esc_9:
+    expresion:         ninguna_1
+    ua_extras:         [52, 3, 62, 4]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     0.3
+
+
+esc_10:
+    expresion:         ninguna_1
+    ua_extras:         [45, 3, 63, 5]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     0.3
+
+
+esc_11:
+    expresion:         ninguna_1
+    ua_extras:         [26, 3]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     0.3
+
+
+esc_12:
+    expresion:         ninguna_1
+    ua_extras:         [26, 0, 45, 0, 63, 0, 62, 0, 52, 0, 54, 0]
+    intensidad_total:  1
+    tiempo_total:      0.3
+    tiempo_espera:     0.3
+

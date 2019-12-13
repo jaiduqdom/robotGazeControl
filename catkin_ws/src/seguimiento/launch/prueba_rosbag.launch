@@ -1,0 +1,25 @@
+<launch>
+	
+	<node
+		pkg="rosbag"
+		type="play"
+		name="play"
+		output="screen"
+		args="/home/disa/mibag.bag"
+		
+	>
+	</node>
+	
+	<node
+		pkg="camara"
+		type="subscriptor"
+		name="subscriptor"
+		output="screen"
+		
+	>
+	</node>	
+	
+
+
+</launch>
+

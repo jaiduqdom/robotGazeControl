@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<robot name="Cabeza">
+   <link name="base_link">
+     <visual>
+        <geometry>
+	   <!--cylinder length="0.01" radius="0.2"/-->
+	   <mesh filename="package://cabeza/meshes/basebin.stl" scale="0.001 0.001 0.001"/>
+	   <!--mesh filename="package://cabeza/meshes/base.stl" scale="1 1 1"-->
+           <cylinder length="0.01" radius="0.2"/>
+        </geometry>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <material name="yellow">
+           <color rgba="1 1 0 1"/>
+        </material>
+     </visual>
+   </link>
+
+   <joint name="pan_joint" type="revolute">
+      <parent link="base_link"/>
+      <child link="pan_link"/>
+      <origin xyz="0 0 0.244"/>
+      <axis xyz="0 0 1" />
+	   <limit effort="3.0" velocity="3.0" lower="-1.57" upper="1.57"/>
+   </joint>
+<link name="pan_link">
+   <visual>
+      <geometry>
+	<mesh filename="package://cabeza/meshes/cuellobin.stl" scale="0.001 0.001 0.001"/>
+         <!--cylinder length="0.4" radius="0.02"/-->
+	
+      </geometry>
+      <origin rpy="0 0 1.57" xyz="0 0 -0.17"/>
+      <material name="blue">
+         <color rgba="0 0 1 1"/>
+      </material>
+   </visual>
+</link>
+
+<joint name="tilt_joint" type="revolute">
+   <parent link="pan_link"/>
+   <child link="tilt_link"/>
+   <origin xyz="0.017 0 0"/>
+   <axis xyz="0 1 0" />
+ <limit effort="3.0" velocity="3.0" lower="-0.78" upper="0.78"/>
+
+</joint>
+   <link name="tilt_link">
+      <visual>
+         <geometry>
+		<mesh filename="package://cabeza/meshes/cascobin.stl" scale="0.001 0.001 0.001"/>
+		<!--box size="0.4 0.3 0.3"/-->
+         </geometry>
+         <origin rpy="0 0 0" xyz="0.017 0 0"/>
+         <material name="red">
+             <color rgba="1 0 0 1"/>
+         </material>
+       </visual>
+   </link>
+</robot>

@@ -1,0 +1,76 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/disa/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03c74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03c74.dir/build.make CMakeFiles/cmTC_03c74.dir/build
+make[1]: se entra en el directorio '/home/disa/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03c74.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_03c74.dir/CheckSymbolExists.c.o   -c /home/disa/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_03c74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03c74.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_03c74.dir/CheckSymbolExists.c.o  -o cmTC_03c74 -rdynamic 
+CMakeFiles/cmTC_03c74.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x16): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_03c74.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_03c74'
+make[1]: *** [cmTC_03c74] Error 1
+make[1]: se sale del directorio '/home/disa/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_03c74/fast'
+make: *** [cmTC_03c74/fast] Error 2
+
+File /home/disa/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/disa/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4989d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4989d.dir/build.make CMakeFiles/cmTC_4989d.dir/build
+make[1]: se entra en el directorio '/home/disa/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4989d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4989d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4989d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4989d.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4989d.dir/CheckFunctionExists.c.o  -o cmTC_4989d -rdynamic -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4989d.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_4989d'
+make[1]: *** [cmTC_4989d] Error 1
+make[1]: se sale del directorio '/home/disa/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_4989d/fast'
+make: *** [cmTC_4989d/fast] Error 2
+
+
+Determining if the function sgesv exists failed with the following output:
+Change Dir: /home/disa/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c99b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c99b6.dir/build.make CMakeFiles/cmTC_c99b6.dir/build
+make[1]: se entra en el directorio '/home/disa/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c99b6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=sgesv -fPIE   -o CMakeFiles/cmTC_c99b6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c99b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c99b6.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv    CMakeFiles/cmTC_c99b6.dir/CheckFunctionExists.c.o  -o cmTC_c99b6 -rdynamic /usr/lib/liblapack.so 
+CMakeFiles/cmTC_c99b6.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `sgesv' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c99b6.dir/build.make:98: fallo en las instrucciones para el objetivo 'cmTC_c99b6'
+make[1]: *** [cmTC_c99b6] Error 1
+make[1]: se sale del directorio '/home/disa/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_c99b6/fast'
+make: *** [cmTC_c99b6/fast] Error 2
+
+
